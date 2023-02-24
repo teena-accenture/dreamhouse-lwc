@@ -1,13 +1,19 @@
 {
-    "orgName": "Dreamhouse",
+    "orgName": "dreamhouse",
     "edition": "Developer",
-    "features": ["Walkthroughs", "EnableSetPasswordInApi"],
+    "features": ["Communities", "ServiceCloud"],
     "settings": {
-        "lightningExperienceSettings": {
-            "enableS1DesktopEnabled": true
+        "communitiesSettings": {
+            "enableNetworksEnabled": true
         },
         "mobileSettings": {
-            "enableS1EncryptedStoragePref2": false
+            "enableS1EncryptedStoragePref2": true
+        },
+        "omniChannelSettings": {
+            "enableOmniChannel": true
+        },
+        "caseSettings": {
+            "systemUserEmail": "support@acme.com"
         }
     }
 }
